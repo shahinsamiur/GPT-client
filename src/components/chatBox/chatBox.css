@@ -1,0 +1,10 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.chat_scrollbar_hide_custom_css::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chat_scrollbar_hide_custom_css {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+import { FaGoogle } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
+
+
+import { FaGithub } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+
+
+
+
+
+
+
+
+
