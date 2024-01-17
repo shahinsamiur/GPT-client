@@ -13,10 +13,10 @@ function UserProvider({ children }) {
     // console.log("called");
   
     try {
-      const res = await callAPI("http://localhost:4000/search", {
+      const res = await callAPI("http://localhost:4000/GetMessage", {
         data: message ,
       });
-        
+console.log(res)
       setMessage_for_chatBox((prevMessages) => [...prevMessages, res.text]);
     } catch (error) {
       // Handle errors if needed
