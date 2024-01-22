@@ -3,7 +3,7 @@ import {UserContext} from "../contextApi/context"
 export default function DefaultQuestionComponents({message}) {
     const {addMessage}=useContext(UserContext)
     const handleOnclick=()=>{
-        console.log(message)
+       
         addMessage(message)
     }
   return (

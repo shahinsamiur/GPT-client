@@ -7,8 +7,9 @@ const callAPI = async (url, param) => {
     console.log(response.data)
     return response.data; 
   } catch (error) {
-    console.error(error);
-   alert("something is wrong")
+    // console.error(error);
+    throw("error") 
+ 
   }
 };
 

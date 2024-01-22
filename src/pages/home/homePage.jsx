@@ -20,8 +20,7 @@ export default function HomePage() {
        {isModalOpen &&
         ReactDOM.createPortal(
           <Modal >
-            {/* Modal content goes here */}
-            <h2>Hello, I'm a Modal!</h2>
+       
           </Modal>,
           document.getElementById('modal-root')
         )}
